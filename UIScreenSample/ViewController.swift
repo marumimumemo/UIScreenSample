@@ -12,7 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // 画面全体のサイズ取得
+        let mainBounds:CGRect = UIScreen.main.bounds
+        
+        let boundsWidth = mainBounds.width
+        let boundHeight = mainBounds.height
+        
+        print(boundsWidth)
+        print(boundHeight)
     }
 
 
